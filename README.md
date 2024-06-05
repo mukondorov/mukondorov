@@ -1,5 +1,6 @@
-- 👋 Hi, I’m @mukondorov
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How 12122
+number = int(input("Введите число: "))
+if number % 2 == 0:
+  print(f"{number} - четное число")
+else:
+  print(f"{number} - нечетное число")
+
